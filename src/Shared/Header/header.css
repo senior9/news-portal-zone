@@ -1,0 +1,14 @@
+.date{
+    font-size: 20px;
+}
+.latest{
+    background-color: whitesmoke
+}
+.latest-news marquee p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.icon{
+    color: brown;
+    width: 30px;
+}
