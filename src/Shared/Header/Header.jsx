@@ -38,7 +38,7 @@ const Header = () => {
             <Nav.Link to="/carrer">Carrer</Nav.Link>
           </Nav>
           <div>
-            <FaUserCircle className="icon"/>
+            <FaUserCircle className="icon "/>
             <button className="btn btn-dark mx-2">Login</button>
           </div>
         </Container>
