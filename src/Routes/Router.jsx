@@ -4,7 +4,8 @@ import Main from '../Layout/Main';
 import Home from '../Pages/Home/Home';
 import Categories from '../Pages/Home/Category/Categories';
 import NewsLayout from '../Layout/NewsLayout';
-import News from '../Pages/Home/News/News';
+import News from '../Pages/Home/News/News/News';
+
 
 const Router = createBrowserRouter([
     {
