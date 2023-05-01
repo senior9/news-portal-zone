@@ -5,6 +5,7 @@ import imageTwo from "../../assets/2.png"
 import imageThree from "../../assets/3.png";
 import moment from "moment";
 import { FaCalendar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const LeftnavBar = () => {
   const [categories, setCategories] = useState([]);
@@ -21,9 +22,13 @@ const LeftnavBar = () => {
       <Button variant="secondary">National News</Button>{" "}
       <div>
         {categories.map((category) => (
-          <li key={category.id} className="mt-3 list-inline">
+          <div key={category.id}>
+            <p>
+            <Link  to={`/category/${category.id}`} className="mt-3 text-decoration-none text-secondary fs-5 mx-2">
             {category.name}
-          </li>
+          </Link>
+            </p>
+          </div>
         ))}
       </div>
       <div className='mt-5  bg-light'>
