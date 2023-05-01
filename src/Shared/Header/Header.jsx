@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaUserCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -33,7 +34,7 @@ const Header = () => {
       <Navbar className="mt-5" bg="light" variant="light">
         <Container>
           <Nav className="me-auto mx-auto">
-            <Nav.Link to="/">Home</Nav.Link>
+            <Nav.Link ><Link className="text-decoration-none text-secondary" to="/">Home</Link></Nav.Link>
             <Nav.Link to="/about">About</Nav.Link>
             <Nav.Link to="/carrer">Carrer</Nav.Link>
           </Nav>

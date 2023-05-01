@@ -14,7 +14,8 @@ const Router = createBrowserRouter([
         children:[
             {
                 path:'/',
-                element:<Home></Home>
+                element:<Categories></Categories>,
+                loader: ({params}) =>fetch("http://localhost:5000/news")
             },
             {
                 path:'/category/:id',
