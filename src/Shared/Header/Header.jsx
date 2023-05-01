@@ -31,19 +31,7 @@ const Header = () => {
       </div>
                     {/* NAVBAR */}
       <div>
-      <Navbar className="mt-5" bg="light" variant="light">
-        <Container>
-          <Nav className="me-auto mx-auto">
-            <Nav.Link ><Link className="text-decoration-none text-secondary" to="/">Home</Link></Nav.Link>
-            <Nav.Link to="/about">About</Nav.Link>
-            <Nav.Link to="/carrer">Carrer</Nav.Link>
-          </Nav>
-          <div>
-            <FaUserCircle className="icon "/>
-            <button className="btn btn-dark mx-2">Login</button>
-          </div>
-        </Container>
-      </Navbar>
+      
       </div>
     </div>
   );
